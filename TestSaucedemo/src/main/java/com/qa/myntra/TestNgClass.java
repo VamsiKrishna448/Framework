@@ -39,7 +39,7 @@ public class TestNgClass extends BaseClass{
 		
 		for(int i=1;i<=7;i++){
 			
-			
+			//printing all values by iterating the i value
 			String price=driver.findElement(By.xpath("//*[@id='desktopSearchResults']/div[2]/section/ul/li["+i+"]/a/div[2]/div/span[1]/span[1]")).getText();
 			System.out.println(price);
 		}
