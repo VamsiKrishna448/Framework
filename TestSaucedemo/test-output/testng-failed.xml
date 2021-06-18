@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.myntra.TestNgClass">
+      <class name="com.qa.extentReportingDemo.BeautifulReporting">
         <methods>
-          <include name="productPrice"/>
+          <include name="noCommercialLoginTest"/>
+          <include name="setExtent"/>
           <include name="setUp"/>
+          <include name="noCommerceTitleTest"/>
+          <include name="noCommercelLogoTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.myntra.TestNgClass -->
+      </class> <!-- com.qa.extentReportingDemo.BeautifulReporting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
