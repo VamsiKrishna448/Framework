@@ -48,6 +48,7 @@ public class BeautifulReporting {
 	
 	@AfterTest
 	public void endReport(){
+		//Flush method is used to erase any previous data on the report and create a new report.
 		extent.flush();
 	}
 	

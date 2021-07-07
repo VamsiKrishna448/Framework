@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.extentReportingDemo.BeautifulReporting">
+      <class name="Amazon">
         <methods>
-          <include name="noCommercialLoginTest"/>
-          <include name="setExtent"/>
-          <include name="setUp"/>
-          <include name="noCommerceTitleTest"/>
-          <include name="noCommercelLogoTest"/>
-          <include name="tearDown"/>
+          <include name="method1"/>
         </methods>
-      </class> <!-- com.qa.extentReportingDemo.BeautifulReporting -->
+      </class> <!-- Amazon -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
